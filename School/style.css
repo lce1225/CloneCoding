@@ -1,0 +1,252 @@
+:root {
+  /* Color */
+  --black-color: #140a00;
+  --white-color: #fff;
+  --red-color: #ca586b;
+  --red-dark-color: #aa3a74;
+  --pink-color: #e16574;
+  --green-color: #73ad53;
+  --grey-color: #7f7d7d;
+
+  /* Size */
+  --padding: 12px;
+
+  /* Font Size */
+  --font-large: 18px;
+  --font-medium: 14px;
+  --font-small: 12px;
+  --font-micro: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
+/* top */
+.top {
+  display: flex;
+  justify-content: right;
+}
+
+.top img {
+  height: 25px;
+  margin-top: 25px;
+}
+
+/* navbar */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid var(--red-color);
+  padding-bottom: 12px;
+}
+
+.navbar__logo img {
+  width: 150px;
+}
+.navbar__logo {
+  display: flex;
+  align-items: center;
+}
+
+.logoName {
+  display: flex;
+  flex-direction: column;
+}
+
+.logoName .logo1 {
+  color: var(--grey-color);
+}
+
+.logoName .logo2 {
+  color: var(--red-color);
+}
+
+.navbar .navbar__menu {
+  display: flex;
+}
+
+.navbar .navbar__menu li {
+  padding: 8px 20px;
+}
+
+.navbar .navbar__menu a {
+  color: var(--grey-color);
+}
+
+.navbar .navbar__menu .point {
+  color: var(--red-dark-color);
+  border: 1px solid var(--red-dark-color);
+  padding: 3px 15px;
+}
+
+.navbar .go {
+  background-color: var(--pink-color);
+  color: var(--white-color);
+  border-radius: 8px;
+  padding: 0 10px;
+  font-size: var(--font-small);
+}
+
+/* view */
+.view > img {
+  width: 580px;
+  height: 450px;
+  margin-right: 10px;
+}
+
+.view {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.view .view1 {
+  margin-right: 30px;
+}
+.consult img {
+  width: 100px;
+}
+
+.preconsult img {
+  width: 100px;
+}
+
+.view .notice {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.notice .title {
+  color: var(--black-color);
+  margin-right: 200px;
+}
+
+.notice a {
+  color: var(--black-color);
+}
+
+.notice .more {
+  margin-right: 5px;
+  font-size: var(--font-small);
+}
+
+.notice i {
+  color: var(--red-dark-color);
+  font-size: var(--font-small);
+}
+
+.view .consult {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.consult .title {
+  color: var(--black-color);
+  margin-right: 270px;
+}
+
+.consult a {
+  color: var(--black-color);
+}
+
+.consult .more {
+  margin-right: 5px;
+  font-size: var(--font-small);
+}
+
+.consult i {
+  color: var(--red-dark-color);
+  font-size: var(--font-small);
+}
+
+.view .preconsult {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.preconsult .title {
+  color: var(--black-color);
+  margin-right: 255px;
+}
+
+.preconsult a {
+  color: var(--black-color);
+}
+
+.preconsult .more {
+  margin-right: 5px;
+  font-size: var(--font-small);
+}
+
+.preconsult i {
+  color: var(--red-dark-color);
+  font-size: var(--font-small);
+}
+
+.view .view2 li {
+  background-color: var(--green-color);
+  margin-bottom: 10px;
+  padding: 20px 5px;
+  border-radius: 50%;
+}
+
+.view .view2 a {
+  color: var(--white-color);
+}
+
+.view .view2 a i {
+  color: red;
+  display: flex;
+  justify-content: center;
+}
+.view .view2 .point {
+  display: flex;
+  flex-direction: column;
+}
+
+.click {
+  display: flex;
+  justify-content: center;
+  font-size: var(--font-small);
+  margin: 10px 0;
+  border-top: 1px solid #919191;
+}
+
+.click .point {
+  color: var(--red-color);
+}
+
+.click li {
+  padding: 5px;
+  border-right: 1px solid #919191;
+}
+
+.click a {
+  color: #919191;
+}
+
+.info {
+  background-color: var(--grey-color);
+  color: var(--white-color);
+}
